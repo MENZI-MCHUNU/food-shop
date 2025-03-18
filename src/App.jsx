@@ -1,13 +1,12 @@
 import "./App.css";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold underline bg-red-500">
-          Hello world!
-        </h1>
-      </div>
+      <main className="relative">
+        <Nav />
+      </main>
     </>
   );
 }
