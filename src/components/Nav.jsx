@@ -1,7 +1,7 @@
 import React from "react";
 import { logo } from "../assets/images";
 import { navigationBarLinks } from "../constants";
-
+import { hamburger } from "../assets/icons";
 function Nav() {
   return (
     <header className="">
@@ -21,6 +21,9 @@ function Nav() {
             </li>
           ))}
         </ul>
+        <div className="hidden max-lg:block">
+          <img src={hamburger} alt="Hamburger" width={30} height={30} />
+        </div>
       </nav>
     </header>
   );
