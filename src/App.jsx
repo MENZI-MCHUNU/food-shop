@@ -14,7 +14,7 @@ function App() {
     <>
       <main className="relative">
         <Nav />
-        <section className="max-w-7xl w-full h-[500px] m-auto">
+        <section className="max-w-7xl w-full h-[450px] m-auto">
           <Slider imageUrls={IMAGES} />
         </section>
         <section className="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12"></section>
