@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  vegetable1,
-  vegetable2,
-  vegetable3,
-  vegetable4,
-  vegetable5,
-} from "../assets/images";
+
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 
 function Slider({ imageUrls }) {
