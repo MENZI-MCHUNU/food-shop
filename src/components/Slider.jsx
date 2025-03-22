@@ -28,13 +28,13 @@ function Slider({ imageUrls }) {
 
       <button
         onClick={showPreviousImage}
-        className="block absolute top-0 bottom-0 p-4 cursor-pointer left-0 hover:bg-lime-200 transition delay-75 duration-150 ease-in-out"
+        className="block absolute top-0 bottom-0 p-4 cursor-pointer left-0 hover:bg-lime-300 transition delay-75 duration-150 ease-in-out"
       >
         <ArrowBigLeft />
       </button>
       <button
         onClick={showNextImage}
-        className="block absolute top-0 bottom-0 p-4 cursor-pointer right-0 hover:bg-lime-200 transition delay-75 duration-150 ease-in-out"
+        className="block absolute top-0 bottom-0 p-4 cursor-pointer right-0 hover:bg-lime-300 transition delay-75 duration-150 ease-in-out"
       >
         <ArrowBigRight />
       </button>
