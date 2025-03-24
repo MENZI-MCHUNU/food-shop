@@ -4,6 +4,9 @@ import {
   vegetable3,
   vegetable4,
   vegetable5,
+  avocado,
+  grapes,
+  oranges,
 } from "../assets/images";
 
 export const navigationBarLinks = [
@@ -12,3 +15,5 @@ export const navigationBarLinks = [
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
 ];
+
+export const fruit = [{}, {}, {}];
