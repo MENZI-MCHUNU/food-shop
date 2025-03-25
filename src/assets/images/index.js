@@ -9,6 +9,7 @@ import oranges from "./oranges.jpg";
 import avocado from "./avocado1.jpg";
 import grapes from "./grapes.jpg";
 import broccoli from "./broccoli.jpg";
+import fruitsandvegetables from "./fruitsandvegetables.jpg";
 export {
   logo,
   vegetable1,
@@ -21,4 +22,5 @@ export {
   avocado,
   grapes,
   broccoli,
+  fruitsandvegetables,
 };

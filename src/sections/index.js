@@ -1,4 +1,4 @@
 import Details from "./Details";
 import PopularProducts from "./PopularProducts";
-
-export { Details, PopularProducts };
+import SuperQuality from "./SuperQuality";
+export { Details, PopularProducts, SuperQuality };
