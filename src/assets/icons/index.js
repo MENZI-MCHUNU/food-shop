@@ -1,3 +1,3 @@
 import hamburger from "./hamburger.svg";
-
-export { hamburger };
+import star from "./star.svg";
+export { hamburger, star };

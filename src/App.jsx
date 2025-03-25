@@ -1,7 +1,7 @@
 import "./index.css";
 import Nav from "./components/Nav";
 import Slider from "./components/Slider";
-import { Details } from "./sections";
+import { Details, PopularProducts } from "./sections";
 import {
   vegetable1,
   vegetable2,
@@ -21,6 +21,9 @@ function App() {
         </section>
         <section className="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12">
           <Details />
+        </section>
+        <section className="sm:px-16 px-8 sm:py-24 py-12">
+          <PopularProducts />
         </section>
       </main>
     </>
